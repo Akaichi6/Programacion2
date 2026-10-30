@@ -24,6 +24,7 @@ public class ej5 {
         System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n",TERCERA,SSII,SSII,PROG,PROG,PROG);
         System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n",CUARTA,BBDD,ING,SSII,ING,PROG);
 
+        
 
     }
     
