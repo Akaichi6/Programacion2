@@ -7,7 +7,6 @@ public class ej2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce el numero de la tabla de multiplicar:");
         int num = sc.nextInt();
-
         int i = 0;
 
         System.out.print("Tabla de multiplicar del número: " );

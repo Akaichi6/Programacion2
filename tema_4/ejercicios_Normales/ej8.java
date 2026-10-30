@@ -13,5 +13,6 @@ public class ej8 {
         double volumen = tercio * Math.PI * radio * radio * altura;
 
         System.out.println("El volumen del cono es: "+ volumen);
+        System.out.printf("El volumen del cono es: %.2f", volumen);
     }
 }
