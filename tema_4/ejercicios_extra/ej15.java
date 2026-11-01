@@ -15,5 +15,6 @@ public class ej15 {
 
         String resultado = primera_letra + texto_medio + ultima_letra;
         System.out.println("La palabra con la primera y ultima letra seria: " + resultado);
+        sc.close();
     }
 }

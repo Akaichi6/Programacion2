@@ -10,5 +10,6 @@ public class ej11 {
        int numero = Integer.parseInt(numero_S);
        int suma = numero + 10; 
        System.out.println("La suma del número introducido es: "+suma);
+        sc.close();
     }
 }

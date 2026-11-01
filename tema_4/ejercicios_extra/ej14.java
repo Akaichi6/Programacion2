@@ -16,7 +16,7 @@ public class ej14 {
 
         System.out.println("El valor booleano para true es: " + tru_b);
         System.out.println("El valor booleano para false es: "+ fals_b);
-
+        sc.close();
     }
     
 }

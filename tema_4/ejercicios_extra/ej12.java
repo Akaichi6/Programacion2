@@ -11,6 +11,6 @@ public class ej12 {
         int longitud = numeroString.length();
         System.out.println(numeroString);
         System.out.println("La longitud es: "+ longitud);
-        
+        sc.close();
     }
 }

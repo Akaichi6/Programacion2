@@ -15,5 +15,6 @@ public class ej13 {
         int n2_entero = Integer.parseInt(n2);
         int suma = n1_entero + n2_entero;
         System.out.println("La suma de los dos números es: " + suma);
+        sc.close();
     }
 }

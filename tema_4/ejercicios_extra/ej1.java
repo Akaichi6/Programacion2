@@ -18,12 +18,10 @@ public class ej1 {
         // minutos
         int minutos_segundos = 60;
         int minutos = horas_resto/minutos_segundos;
-        int minutos_resto = minutos % minutos_segundos;
         //segundos
-        int segundos_segundos = 60;
         int segundos_final = horas_resto % minutos_segundos;
 
         System.out.printf("Equivale a: %d dia(s), %d hora(s), %d minutos(s) y %d segundo(s) ", dias, horas, minutos,segundos_final);
-
+        sc.close();
     }
 }

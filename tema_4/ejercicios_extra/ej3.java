@@ -66,5 +66,6 @@ public class ej3 {
         System.out.println("-------------------------------------------------");
         System.out.printf("|%-11s|%8s|%15s|%10.2f|\n",total,cantidad_total,"",suma);
 
+        sc.close();
     }
 }

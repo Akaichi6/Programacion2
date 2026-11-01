@@ -18,7 +18,7 @@ public class ej5 {
         String EDE = "EDE";
         String ING = "ING";
         String LMSGI = "LMSGI";
-        System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n", "HORA", "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES");
+        System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n", HORA, LUNES, MARTES, MIERCOLES,JUEVES, VIERNES);
         System.out.printf("--------------------------------------------------------------------\n");
         System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n",PRIMERA,PROG,EDE,BBDD,EDE,LMSGI);
         System.out.printf("| %-14s| %-10s| %-10s| %-10s| %-10S| %-10s|\n",SEGUNDA,PROG,PROG,BBDD,BBDD,LMSGI);

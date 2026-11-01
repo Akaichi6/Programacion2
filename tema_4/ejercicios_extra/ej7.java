@@ -12,5 +12,6 @@ public class ej7 {
         System.out.println("minúsculas: " + frase.toLowerCase());
         System.out.printf("%S\n",frase);
         System.out.printf("%s\n",frase);
+        sc.close();
     }
 }

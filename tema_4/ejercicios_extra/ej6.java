@@ -1,6 +1,5 @@
 package tema_4.ejercicios_extra;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ej6 {
@@ -22,5 +21,7 @@ public class ej6 {
     System.out.println(separacion_2);
     System.out.println(separacion_3);
     System.out.println("Suma de dígitos de la parte entera:" + suma);
+    
+    sc.close();
   }
 }

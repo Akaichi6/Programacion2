@@ -16,6 +16,6 @@ public class ej2 {
         System.out.printf("El producto más caro: %.2f €%n",maximo);
         System.out.printf("El producto más barato: %.2f €%n ",minimo);
         System.out.printf("Diferencia: %.2f €%n", diferencia);
-
+        sc.close();
     }
 }

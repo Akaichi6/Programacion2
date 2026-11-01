@@ -70,6 +70,7 @@ public class ej4 {
         System.out.printf("-----------------------------------------------------------------\n");
         System.out.printf("|"+verde+"|%-10s"+rojo+"|%8s|%15s|%10.2f|\n",total_s,suma_cantidad,"",total);
 
+        sc.close();
     }
 
 }

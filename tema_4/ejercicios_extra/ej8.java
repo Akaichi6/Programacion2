@@ -23,5 +23,6 @@ public class ej8 {
         System.out.println("Base imponible:" + basse_imponible);
         System.out.printf("IVA (21%%): %s %n", df.format(iva),euro);
         System.out.printf("Precio final: %s €%n", df.format(precio_final));
+        sc.close();
     }    
 }
