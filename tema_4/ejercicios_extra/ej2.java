@@ -1,4 +1,4 @@
-package tema_4.ejercicios_Refuerzo_extra;
+package tema_4.ejercicios_extra;
 
 import java.util.Scanner;
 
