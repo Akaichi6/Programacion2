@@ -1,6 +1,5 @@
-package tema_5.parte_1;
+package tema_5.parte_1.Normales;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ej16{

@@ -1,4 +1,4 @@
-package tema_5.parte_1;
+package tema_5.parte_1.Normales;
 
 import java.util.Scanner;
 
