@@ -44,7 +44,5 @@ public class ej20 {
                 System.out.println("Salario neto: " + df.format(salario_neto)+" €");
             }
         }
-
     }
-
 }
