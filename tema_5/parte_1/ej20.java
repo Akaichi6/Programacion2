@@ -10,19 +10,21 @@ public class ej20 {
         System.out.println("| COMPROBADOR DE salario |");
         System.out.println("--------------------------");
 
-        System.out.println("Nombre:\t");
+        System.out.print("Nombre:");
         String nombre = input.nextLine();
-        System.out.println("Horas trabajadas:\t ");
+        System.out.print("Horas trabajadas semanales: ");
         int horasTrabajadas = input.nextInt();
-        System.out.println("Tarifa por hora:\t ");
+        System.out.print("Tarifa por hora: ");
         int tarifaPorHora = input.nextInt();
 
         final double horaNormal = 35;
         double horaExtra = horasTrabajadas - horaNormal;
         double salario_hora_normal = horaNormal * tarifaPorHora;
         double salario_hora_extra = horaExtra * (tarifaPorHora*1.5);
-        double salario_bruto = salario_hora_extra + salario_hora_normal;
+        double salario_bruto = (salario_hora_extra + salario_hora_normal)*4;
+        System.out.println("salario bruto: "+ salario_bruto);
         double impuestos = salario_bruto;
+        System.out.println("impuestos: "+impuestos);
         final double libre_impuesto = 500;
         final double impuesto25 = 0.25;
         final double impuesto45 = 0.45;
@@ -35,7 +37,7 @@ public class ej20 {
                 tramo2 = 400 * impuesto25;
                 impuestos = salario_bruto - 400;
                 tramo3 = impuestos * impuesto45;
-                salario_neto =  salario_bruto + tramo2 + tramo3;
+                salario_neto =  salario_bruto - tramo2 - tramo3;
                 System.out.println("Salario neto: " + salario_neto);
             }
         }
