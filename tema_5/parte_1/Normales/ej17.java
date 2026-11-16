@@ -14,30 +14,33 @@ public class ej17 {
         hora = Integer.parseInt(partes[0]);
         minuto = Integer.parseInt(partes[1]);
         segundo = Integer.parseInt(partes[2]);
-
-        if (segundo==59 && minuto==59){
-            segundo=0;
-            if (minuto==59) {
+        if (hora < 25) {
+            if (segundo == 59 && minuto == 59) {
+                segundo = 0;
+                if (minuto == 59) {
+                    minuto = 0;
+                    segundo = 0;
+                    hora++;
+                    if (hora == 24) {
+                        hora = 0;
+                    }
+                }
+                System.out.println("salida: " + df.format(hora) + ":" + df.format(minuto) + ":" + df.format(segundo));
+            } else if (segundo < 59) {
+                segundo++;
+                System.out.println("salida: " + df.format(hora) + ":" + df.format(minuto) + ":" + df.format(segundo));
+            } else if (minuto < 59) {
+                minuto++;
+                segundo = 0;
+                System.out.println("salida: " + df.format(hora) + ":" + df.format(minuto) + ":" + df.format(segundo));
+            } else {
                 minuto = 0;
                 segundo = 0;
                 hora++;
-                if (hora==24) {
-                    hora=0;
-                }
+                System.out.println("salida: " + df.format(hora) + ":" + df.format(minuto) + ":" + df.format(segundo));
             }
-            System.out.println("salida: "+df.format(hora)+":"+df.format(minuto)+":"+df.format(segundo));
-        } else if (segundo<59) {
-            segundo++;
-            System.out.println("salida: "+df.format(hora)+":"+df.format(minuto)+":"+df.format(segundo));
-        } else if (minuto<59) {
-            minuto++;
-            segundo=0;
-            System.out.println("salida: "+df.format(hora)+":"+df.format(minuto)+":"+df.format(segundo));
-        }else {
-            minuto=0;
-            segundo=0;
-            hora++;
-            System.out.println("salida: "+df.format(hora)+":"+df.format(minuto)+":"+df.format(segundo));
+        }else{
+            System.out.println("las horas no pueden pasar de 24");
         }
     }
 }

@@ -25,10 +25,10 @@ public class ej15 {
             System.out.println("El importe es: "+df.format(importe)+" al ser menor de 50€ se le aplica un recargo de 5€.");
             double precio_final =importe+RECARGO_MENOS_50;
             System.out.println("El precio final con el descuento aplicado es: "+df.format(precio_final)+" €");
-        }
-        else if (importe>50 && importe<100){
+        }else if (importe>50 && importe<100){
             System.out.println("El importe es: "+df.format(importe)+" al estar entre 50€ y 100€ no se le aplica ni descuento ni recargo.");
-
+        } else if (importe==100) {
+            System.out.println("no se aplica ni descuento ni recargo");
         }
 
     }
