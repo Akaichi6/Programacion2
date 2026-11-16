@@ -19,7 +19,7 @@ public class ej15 {
         if (importe > 100 ){
             System.out.println("El importe es: "+df.format(importe)+" al ser mayor de 100€ se le aplica un descuento del 10%.");
             double descuento =importe*DESCUENTO_MAS_1000;
-            double precio_final = importe+descuento;
+            double precio_final = importe-descuento;
             System.out.println("El precio final con el descuento aplicado es: "+df.format(precio_final)+" €");
         } else if (importe<50) {
             System.out.println("El importe es: "+df.format(importe)+" al ser menor de 50€ se le aplica un recargo de 5€.");

@@ -13,7 +13,7 @@ public class ej5 {
             numero_string = sc.nextLine().trim();
             length = numero_string.length();
         }
-            String primero = numero_string.substring(Integer.parseInt(numero_string),0);
+            String primero = numero_string.substring(0,1);
             System.out.println("El primer numero de "+numero_string+" es: "+primero);
     }
 }
