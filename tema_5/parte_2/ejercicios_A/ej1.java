@@ -1,6 +1,4 @@
-package tema_5.parte_2.normales;
-
-import java.util.Scanner;
+package tema_5.parte_2.ejercicios_A;
 
 public class ej1 {
     static void main(String[] args) {

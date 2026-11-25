@@ -1,4 +1,4 @@
-package tema_5.parte_2.normales;
+package tema_5.parte_2.ejercicios_A;
 
 public class ej3 {
     public static void main(String[] args) {
